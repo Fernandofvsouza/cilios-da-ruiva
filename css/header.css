@@ -1,0 +1,57 @@
+header{
+    width: 100%;
+    padding: 40px 0;
+    
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .interface  .logo img{
+    max-width: 60px;
+}
+
+header .interface .navbar ul{
+    list-style: none;
+}
+
+header .interface .navbar ul li{    
+    display: inline-block;
+    margin: 0 40px;
+
+}
+
+header .interface .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--logo);
+    font-size: 28px;
+
+    transition: .5s;
+}
+
+header .interface .navbar ul li a:hover{
+    color: var(--verde);
+    transform: scale(1.05);
+}
+
+
+header .interface .button a button{
+    width: 140px;
+    height: 50px;
+
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--branco);
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+header .interface .button a button:hover{
+    transform: scale(1.05);
+    background-color: var(--verde);
+}
