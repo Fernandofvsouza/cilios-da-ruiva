@@ -1,6 +1,7 @@
 .inicio{
     height: 83vh;
     width: 100%;
+    
 }
 
 .inicio .interface{
@@ -23,6 +24,9 @@
 .inicio .interface .txt-inicio h2{
     font-size: 4em;
     font-family: var(--logo);
+    background: linear-gradient(to top, var(--rosa), var(--roxo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
@@ -31,7 +35,7 @@
     height: 60px;
     width: 320px;
 
-    background-color: var(--branco);
+    background-image: linear-gradient(to top, var(--rosa), var(--roxo));
     color: black;
     border: 1px solid black;
     font-size: 24px;
@@ -43,7 +47,7 @@
 }
 
 .inicio .interface .btn-inicio a button:hover{
-    background-color: var(--verde);
+    
     transform: scale(1.05);
 }
 

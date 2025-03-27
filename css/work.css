@@ -1,0 +1,38 @@
+.work{
+    background-color: var(--azul);
+    padding: 100px 0;
+}
+
+.work .interface{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work .interface .card{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 300px;
+    height: 500px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work .interface .card h1{
+    font-size: 32px;
+    text-align: center;
+    font-family: var(--logo);
+    margin-bottom: 20px;
+}
+
+.work .interface .card p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.work .interface .card img{
+    height: 250px;
+    width: 250px;
+}
