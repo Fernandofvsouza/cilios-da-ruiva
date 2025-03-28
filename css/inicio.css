@@ -25,6 +25,7 @@
     font-size: 4em;
     font-family: var(--logo);
     background: linear-gradient(to top, var(--rosa), var(--roxo));
+    -webkit-text-stroke: 0.1px black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
