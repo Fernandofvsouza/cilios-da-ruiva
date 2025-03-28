@@ -1,5 +1,5 @@
 .work{
-    background-color: var(--azul);
+    background-image: linear-gradient(to right, var(--rosa), var(--roxo));
     padding: 100px 0;
     border: 1px solid black;
 }
@@ -11,6 +11,7 @@
 }
 
 .work .interface .card{
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 50px;
     width: 300px;

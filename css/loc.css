@@ -1,0 +1,29 @@
+.loc{
+    background-image: linear-gradient(to left, var(--rosa), var(--roxo));
+    padding: 100px 0;
+    border-top: 1px solid black;
+    border-bottom: 2px solid var(--branco);
+}
+
+.loc .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.loc .interface .txt-map h1{
+    margin-bottom: 40px;
+    font-size: 3em;
+    color: var(--branco);
+    font-family: var(--logo);
+    -webkit-text-stroke: 0.1px black;
+}
+
+.loc .interface .txt-map h2{
+    border-top: 2px solid black;
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: var(--branco);
+    -webkit-text-stroke: 1px black;
+}

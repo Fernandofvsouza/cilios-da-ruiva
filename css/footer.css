@@ -1,0 +1,53 @@
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .top-footer button {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    border: 2px solid var(--roxo);
+    background-color: transparent;
+    color: var(--roxo);
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 20px;
+
+    transition: .5s ease-in-out;
+}
+
+footer .top-footer a{
+    text-decoration: none;
+}
+
+footer .top-footer button:hover{
+    background-color: var(--rosa);
+    color: black;
+    border: var(--rosa);
+}
+
+footer .middle-footer{
+    margin: 20px 0;
+}
+
+footer .middle-footer a {
+    color: var(--roxo);
+    margin: 0 15px;
+
+    
+}
+
+
+
+footer .bottom-footer{
+    border-top: 2px solid white; 
+    
+}
+
+footer .bottom-footer p{
+    color: var(--roxo);
+    margin-top: 10px; /*Para dar um espaçamento da linha com o paragrafo de direitos reservados*/
+}
